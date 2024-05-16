@@ -59,7 +59,9 @@ const Experience: React.FC = () => {
             variants={variants}
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
-            <img
+            <Image
+              width={400}
+              height={400}
               src={experience.logo}
               alt={`${experience.company} logo`}
               className="w-16 h-16 mr-4"

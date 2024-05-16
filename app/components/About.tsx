@@ -1,13 +1,18 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="relative flex items-center justify-center bg-gray-900 text-white h-screen">
+    <section
+      id="about"
+      className="relative flex items-center justify-center bg-gray-900 text-white h-screen"
+    >
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 opacity-75"></div>
       <div className="relative z-10 p-8 text-center max-w-4xl">
         <div className="flex flex-col items-center mb-8">
-          <img
+          <Image
+            width={400}
+            height={400}
             src="/passport.jpeg"
             alt="Your Image"
             className="rounded-full border-4 border-white mb-4 w-40 h-40 object-cover"
@@ -16,7 +21,15 @@ const About: React.FC = () => {
           <p className="text-lg mb-4">Seasoned Software Engineer</p>
         </div>
         <p className="text-xl leading-relaxed mb-6">
-          I am a highly skilled software engineer with extensive experience in back-end and front-end development. Proficient in Python, Django, Django Rest Framework, Node.js, Express, and a variety of databases including MySQL, PostgreSQL, and MongoDB. On the front end, I excel with React, Next.js, and Tailwind CSS, creating seamless and engaging user interfaces. I am also well-versed in cloud technologies, leveraging platforms such as AWS, Azure, and Google Cloud to build scalable and resilient applications. My passion lies in delivering elegant, efficient, and user-centric solutions.
+          I am a highly skilled software engineer with extensive experience in
+          back-end and front-end development. Proficient in Python, Django,
+          Django Rest Framework, Node.js, Express, and a variety of databases
+          including MySQL, PostgreSQL, and MongoDB. On the front end, I excel
+          with React, Next.js, and Tailwind CSS, creating seamless and engaging
+          user interfaces. I am also well-versed in cloud technologies,
+          leveraging platforms such as AWS, Azure, and Google Cloud to build
+          scalable and resilient applications. My passion lies in delivering
+          elegant, efficient, and user-centric solutions.
         </p>
         <a
           href="#contact"
