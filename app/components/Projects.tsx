@@ -13,13 +13,13 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Project One",
+    title: "Crypto Tracker",
     description: "A brief description of project one.",
-    link: "#",
+    link: "https://lilbex-crypto-tracker.netlify.app/",
     image: "/crypto1.png", 
   },
   {
-    title: "Project Two",
+    title: "Personal Finance Tracker",
     description: "A brief description of project two.",
     link: "#",
     image: "https://via.placeholder.com/400x300.png?text=Project+Two", 
