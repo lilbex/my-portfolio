@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import useInView from '../../hooks/useInView';
-
+import Image from 'next/image';
 interface Project {
   title: string;
   description: string;
